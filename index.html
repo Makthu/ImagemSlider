@@ -66,7 +66,7 @@
     const numberOfSlides = slides.length;
     var slideNumber = 0;
 
-    //image slider next button
+    //image slider do botão -próximo-.
     nextBtn.addEventListener("click", () => {
       slides.forEach((slide) => {
         slide.classList.remove("active");
@@ -85,7 +85,7 @@
       slideIcons[slideNumber].classList.add("active");
     });
 
-    //image slider previous button
+    //image slider do botão -anterior-
     prevBtn.addEventListener("click", () => {
       slides.forEach((slide) => {
         slide.classList.remove("active");
